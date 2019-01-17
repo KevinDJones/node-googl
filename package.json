@@ -23,9 +23,9 @@
     "node": ">= v0.10.20"
   },
   "dependencies": {
-    "request": "~2.40.0",
     "commander": "~2.2.0",
-    "q": "~1.0.1"
+    "q": "~1.0.1",
+    "request": "^2.88.0"
   },
   "main": "lib/googl.js",
   "bin": {
@@ -35,8 +35,8 @@
     "test": "node_modules/.bin/mocha"
   },
   "devDependencies": {
-    "mocha": "~1.18.2",
     "chai": "~1.9.1",
-    "chai-as-promised": "~4.1.1"
+    "chai-as-promised": "~4.1.1",
+    "mocha": "^5.2.0"
   }
 }
